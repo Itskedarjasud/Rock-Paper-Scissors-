@@ -70,3 +70,29 @@ h1{
     border-radius: 10px;
     color: white;
 }
+
+
+/* New styles for responsive design */
+@media only screen and (max-width: 600px) {
+    h1{
+
+        font-size: 35px;
+    }
+    .options {
+        font-size: 50px; /* Adjust font size for smaller screens */
+        gap: 10px; /* Decrease gap between options */
+    }
+    .score-board {
+        font-size: 20px; /* Adjust font size for smaller screens */
+        gap: 50px; /* Decrease gap between score elements */
+        margin-top: 50px; /* Decrease margin for smaller screens */
+    }
+    #user-score, #comp-score {
+        font-size: 50px; /* Adjust font size for smaller screens */
+        padding: 0 5px; /* Decrease padding for smaller screens */
+    }
+    #msg {
+        font-size: 30px; /* Adjust font size for smaller screens */
+        padding: 0 5px; /* Decrease padding for smaller screens */
+    }
+}
